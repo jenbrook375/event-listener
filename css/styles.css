@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 650px;
+    width: 100%;
+    background-image: url(../images/yosemite.jpg);
+    background-repeat: repeat;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 25%;
+    height: 70%;
+    background-color: #e0e2e5;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+.container:hover {
+    background-image: url("../images/yosemite2.jpg");
+    background-repeat: repeat;
+}
+
+.box:hover {
+    width: 50px;
+}
